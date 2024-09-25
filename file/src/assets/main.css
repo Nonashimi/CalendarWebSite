@@ -1,0 +1,39 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+body{
+  background-color: rgb(231, 226, 255);
+}
+.BlockList .block:first-child{
+  border-top-left-radius: 20px;
+}
+.BlockList .block:nth-child(5){
+  border-top-right-radius: 20px;
+}
+.BlockList .block:nth-child(26){
+  border-bottom-left-radius: 20px;
+}
+.BlockList .block:last-child{
+  border-bottom-right-radius: 20px;
+}
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+
